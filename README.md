@@ -15,7 +15,8 @@ Install [R](https://www.r-project.org/), and [RStudio](https://posit.co/download
 [Survey](https://forms.gle/KREstBTEhL9iRjVUA)
 
 ## Related
-[RTutor](https://RTutor.ai)
 Recording will be posted on [YouTube](https://www.youtube.com/@gxj37)
+
 Dr. Ge on [LinkedIn](https://www.linkedin.com/in/steven-ge-ab016947/)
 
+[RTutor.ai](https://RTutor.ai)
