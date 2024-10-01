@@ -3,12 +3,12 @@
 Oct 3, 2024   SCEH Room 217 (Crother Engineering Hall) 
 
 ## Prepare
-Use RStudio via [Posit.Cloud](https://posit.cloud/) website. Or, Install [R](https://www.r-project.org/), and [RStudio](https://posit.co/download/rstudio-desktop/) on your laptop. 
+Use RStudio via [Posit.Cloud](https://posit.cloud/) website. Or, install [R](https://www.r-project.org/), and [RStudio](https://posit.co/download/rstudio-desktop/) on your laptop. 
 
-Create an account on [Shinyapps.io](https://Shinyapps.io)
+Create an account on [Shinyapps.io](https://Shinyapps.io) for publishing Shiny apps.
 
 ## Materials
-[Main material]([https://github.com/gexijin/rworkshop/raw/main/R_workshop_2024.pdf](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html))
+[Main material](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
 [Mastering Shiny](https://mastering-shiny.org/)
 
