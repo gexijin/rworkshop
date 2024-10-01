@@ -1,4 +1,4 @@
-# Shiny app workshop for beginners
+# Workshop: Shiny app for beginners
 
 Oct 3, 2024   SCEH Room 217 (Crother Engineering Hall) 
 
