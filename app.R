@@ -18,13 +18,15 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            selectInput("select_column",
-                        "Select a column", 
-                        choices = colnames(mtcars)
+            selectInput(
+              "select_column",
+              "Select a coloum",
+              choices = colnames(mtcars)
             ),
-            selectInput("select_color",
-                        "Select a color", 
-                        choices = c("red", "green", "gray")
+            selectInput(
+              "select_color",
+              "Select a color!!!",
+              choices = c("red", "green", "blue")
             ),
             sliderInput("bins",
                         "Number of bins:",
@@ -37,28 +39,29 @@ ui <- fluidPage(
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("sPlot"),
-           textInput("question", "Ask AI"),
-           textOutput("chat")
+           textInput("question", "Ask a question"),
+           textOutput("res")
         )
     )
 )
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-    output$chat <- renderText({
-      req(input$question)
-      library(openai)
-      client <- OpenAI()
-      completion <- client$chat$completions$create(
-        model = "gpt-3.5-turbo",
-        messages = list(list("role" = "user", "content" = input$question))
-      )
-      
-      completion$choices[[1]]$message$content
-    })
-    output$sPlot <- renderPlot({
+     output$res <- renderText({
+       req(input$question) 
+       
+       library(openai)
+       client <- OpenAI()
+       completion <- client$chat$completions$create(
+         model = "gpt-3.5-turbo",
+         messages = list(list("role" = "user", "content" = input$question))
+       )
+       completion$choices[[1]]$message$content
+     })
+  
+      output$sPlot <- renderPlot({
         plot(mtcars[, input$select_column], mtcars$mpg)
-    })
+      })
   
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
