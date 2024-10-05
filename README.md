@@ -8,13 +8,13 @@ Use RStudio via [Posit.Cloud](https://posit.cloud/) website. Or, install [R](htt
 Create an account on [Shinyapps.io](https://Shinyapps.io) for publishing Shiny apps.
 
 ## Materials
+
+Recording is posted on [YouTube](https://youtu.be/4cFS2XXaDgk)
+## To learn more
 [Main material](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
 
 [Mastering Shiny](https://mastering-shiny.org/)
 
-## Related
-Recording will be posted on [YouTube](https://www.youtube.com/@gxj37)
-
 Dr. Ge on [LinkedIn](https://www.linkedin.com/in/steven-ge-ab016947/), [Twitter/X](https://x.com/StevenXGe)
 
-[RTutor.ai](https://RTutor.ai)
+Shiny apps by Dr. Ge [RTutor.ai](https://RTutor.ai), [Chatlize.ai](https://chatlize.ai), [iDEP](http://bioinformatics.sdstate.edu/idep/), [ShinyGO](http://bioinformatics.sdstate.edu/go).
