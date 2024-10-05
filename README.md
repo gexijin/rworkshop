@@ -9,7 +9,9 @@ Create an account on [Shinyapps.io](https://Shinyapps.io) for publishing Shiny a
 
 ## Materials
 [Presentation](https://github.com/gexijin/rworkshop/blob/14649556391d228fc7c4e19c5f558347501dba10/Shiny%20presentation.pdf)
+
 [Activity](https://github.com/gexijin/rworkshop/blob/14649556391d228fc7c4e19c5f558347501dba10/Activity.pdf)
+
 [Video recording](https://youtu.be/4cFS2XXaDgk)
 ## To learn more
 [Main material](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
